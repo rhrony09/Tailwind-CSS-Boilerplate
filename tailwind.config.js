@@ -1,7 +1,5 @@
 module.exports = {
-  mode: 'jit',
-  purge: ['*.html','*.php','*.js','*.jsx'],
-  darkMode: 'media', // or 'media' or 'class'
+  content: ['*{.html,.php,js,jsx,ts,tsx,vue}'],
   theme: {
     extend: {},
   },
